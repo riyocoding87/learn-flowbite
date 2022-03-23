@@ -1,0 +1,28 @@
+{
+  "name": "learn-flowbite",
+  "version": "1.0.0",
+  "description": "learning flowbite - tailwindcss component",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tailwindcss -i ./src/main.css -o ./dist/main.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/riyocoding87/learn-flowbite.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/riyocoding87/learn-flowbite/issues"
+  },
+  "homepage": "https://github.com/riyocoding87/learn-flowbite#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.0.23"
+  },
+  "dependencies": {
+    "flowbite": "^1.4.0",
+    "mini-svg-data-uri": "^1.4.4"
+  }
+}
